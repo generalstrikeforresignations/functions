@@ -1,5 +1,5 @@
 packages:
-  - name: packages
+  - name: serve
     actions:
       - name: getContacts
         runtime: 'nodejs:18'
