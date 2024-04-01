@@ -2,7 +2,7 @@
   "name": "postclient",
   "engines": {
     "node": "18.x"
-  }
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
