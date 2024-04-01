@@ -4,8 +4,8 @@ packages:
       - name: getContacts
         runtime: 'nodejs:18'
         limits:
-	  timeout: 5000
-	  memory: 256
+          timeout: 5000
+          memory: 256
       - name: postContact
         runtime: 'nodejs:18'
         limits:
