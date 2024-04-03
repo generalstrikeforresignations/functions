@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 async function main(args) {
     const uri = process.env['DATABASE_URL'];
     let client = new MongoClient(uri);
-
+    console.log(args);
     let new_contact = args;
     try {
         await client.connect();
